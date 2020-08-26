@@ -1,0 +1,48 @@
+.list-item {
+    list-style: none;
+    padding: 20px;
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.todo-text {
+    font-size: 12px;
+    margin: 0;
+    max-width: 360px;
+    padding-left: 10px;
+    border: 0;
+    outline: none;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.date-text {
+    font-size: 10px;
+}
+
+.editing {
+    border: 2px solid #FF9494;
+    border-radius: 3px;
+    background: white;
+}
+
+.title-cont {
+    text-align: left;
+    display: flex;
+}
+
+.delete-bttn {
+    border: none;
+    border-radius: 5px;
+    background: #DADADA;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.delete-bttn:hover {
+     background: #AEAEAE;
+}

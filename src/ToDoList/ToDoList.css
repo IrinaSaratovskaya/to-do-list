@@ -1,0 +1,47 @@
+.todo-container {
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+}
+
+.todo-list {
+    text-align: center;
+    background-color: #DADADA;
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.list-cont {
+    padding-left: 0;
+    margin: 0;
+}
+
+.todo-header {
+    padding: 20px 0;
+    background-color: #00bcd4;
+    overflow: hidden;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: white;
+}
+
+.date-heading {
+    color: white;
+    font-size: 10px;
+}
+
+.clear-all {
+    color: #5f6769;
+    border: solid 1px;
+    border-radius: 3px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.clear-all:hover {
+    background: #AEAEAE;
+}
