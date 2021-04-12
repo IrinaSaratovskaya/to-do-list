@@ -8,13 +8,19 @@
 }
 
 .submit-bttn {
-    color: #5f6769;
+    color: white;
     border-width: 0;
     border-radius: 3px;
     margin-left: 4px;
     height: 34px;
-    border: 1px solid gainsboro;
+    border: 1px solid #b487fb;
     cursor: pointer;
+    background: #390e7d;
+    box-shadow: 1px 1px 3px #7b7b7b;
+}
+
+.submit-bttn:hover {
+    background: #714aaf;
 }
 
 .input-bar {

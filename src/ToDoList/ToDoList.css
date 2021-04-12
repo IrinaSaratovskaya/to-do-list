@@ -6,10 +6,11 @@
 
 .todo-list {
     text-align: center;
-    background-color: #DADADA;
+    background-color: white;
     width: 500px;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 20px 20px 50px #5d5d5d;
 }
 
 .list-cont {
@@ -19,7 +20,7 @@
 
 .todo-header {
     padding: 20px 0;
-    background-color: #00bcd4;
+    background-color: #390e7deb;
     overflow: hidden;
 }
 
@@ -35,13 +36,16 @@ h2 {
 }
 
 .clear-all {
-    color: #5f6769;
-    border: solid 1px;
+    color: white;
+    border: solid 1px #390e7deb;
     border-radius: 3px;
     margin: 15px 0;
     cursor: pointer;
+    background: #390e7d;
+    box-shadow: 1px 1px 3px grey;
+    padding: 5px 10px;
 }
 
 .clear-all:hover {
-    background: #AEAEAE;
+    background: #714aaf;
 }

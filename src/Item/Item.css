@@ -1,7 +1,7 @@
 .list-item {
     list-style: none;
     padding: 20px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #947dc1;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -38,11 +38,11 @@
 .delete-bttn {
     border: none;
     border-radius: 5px;
-    background: #DADADA;
+    background: #390e7d1c;
     cursor: pointer;
     margin-left: 15px;
 }
 
 .delete-bttn:hover {
-     background: #AEAEAE;
+     background: #7250b4;
 }
